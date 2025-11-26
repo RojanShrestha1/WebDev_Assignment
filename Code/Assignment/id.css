@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* Instagram card container */
+.insta-card {
+    width: 360px;
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* Header */
+.insta-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.insta-logo {
+    width: 30px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Profile section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    gap: 20px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 95px;
+    height: 95px;
+    background: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Info section */
+.info {
+    margin-top: 20px;
+}
+
+.info strong {
+    font-size: 17px;
+}
+
+.extra {
+    color: #666;
+    font-size: 14px;
+    margin-top: 4px;
+}

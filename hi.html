@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Style ID</title>
+    <link rel="stylesheet" href="/Style/id.css">
+</head>
+<body>
+
+    <div class="form-container" id="formBox">
+        <h2>Create ID</h2>
+
+        <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" id="name">
+        </div>
+
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" id="username">
+        </div>
+
+        <div class="input-group">
+            <label>Class</label>
+            <input type="text" id="className">
+        </div>
+
+        <div class="input-group">
+            <label>Roll Number</label>
+            <input type="number" id="roll">
+        </div>
+
+        <div class="input-group">
+            <label>Bio</label>
+            <input type="text" id="bio">
+        </div>
+
+        <button id="submitBtn">Generate IG ID</button>
+    </div>
+
+
+    <!-- INSTAGRAM STYLE CARD -->
+    <div class="insta-card" id="idCard">
+
+        <div class="insta-header">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" class="insta-logo">
+            <p class="ig-username" id="igUsernameTop"></p>
+        </div>
+
+        <div class="profile-section">
+            <div class="profile-pic" id="profileInitials"></div>
+
+            <div class="stats">
+                <div><span>12</span><p>Posts</p></div>
+                <div><span>350</span><p>Followers</p></div>
+                <div><span>180</span><p>Following</p></div>
+            </div>
+        </div>
+
+        <div class="info">
+            <strong id="igFullName"></strong>
+            <p id="igBio"></p>
+            <p class="extra">Class: <span id="igClass"></span></p>
+            <p class="extra">Roll: <span id="igRoll"></span></p>
+        </div>
+
+    </div>
+
+    <script src="/Style/script.js"></script>
+</body>
+</html>
